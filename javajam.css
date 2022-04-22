@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Lab11RequiredFiles/fadedroad50.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fcebb6;
+    color: #221811;
+    font-family: Tahoma, Arial, Sans-Serif;
+}
+
+header {
+    padding: 0%;
+    background-image: url(../Lab11RequiredFiles/coffeelogo.jpg);
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    color: #231814;
+    height: 140px;
+}
+
+main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: 240px;
+    background-color: #fef6c2;
+    overflow: auto;
+    display: block;
+}
+
+header a:link :visited {
+    list-style-type: none;
+    color: #231814
+}
+
+header a:hover {
+    list-style-type: none;
+    color: #fef6c2;
+}
+
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    float: left;
+}
+
+h2 {
+    color: #8c3826;
+}
+
+h3 {
+    color: #8c3826;
+}
+
+h1 {
+    font-size: 3em;
+    color: #8c3826;
+    background-color: #d2b48c;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 30px;
+    float: left;
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fef6c2;
+}
+
+a:visited {
+    color: #d2b48c;
+}
+
+a:hover {
+    color: #cc9933;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 40px;
+    float: left;
+    margin-top: 0px;
+}
+nav li {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #d2b48c;
+    color: #221811;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-top: 2px solid #8c3826;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    filter: drop-shadow(5px 5px 4px #000000);
+    background-color: #231814;
+    padding: 0%;
+}
+
+main h2, h3, p, div, ul, dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main h4 {
+    padding-left: 3em;
+    padding-right: 2em;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    padding-bottom: 0%;
+    width: 1080px;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+    float: left;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(../Lab11RequiredFiles/hero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heromugs {
+    height: 300px;
+    background-image: url(../Lab11RequiredFiles/heromugs.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.heroguitar {
+    height: 300px;
+    background-image: url(../Lab11RequiredFiles/heroguitar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.onethird {
+    float: left;
+    width: 33%;
+}
+
+audio {
+    display: block;
+    margin-top: 1em;
+    margin-left: 310px;
+
+}
+.details figcaption {
+    float: left;
+}
